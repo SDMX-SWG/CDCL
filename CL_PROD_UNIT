@@ -1,0 +1,13 @@
+From Global Labour DSD
+
+Name: Type of Production Unit, e.g. Informal, Formal, Household
+Description: Refers to the nature of the economic unit in which a job is located as determined by its legal organization, type of accounts keep and orientation of the output
+
+[Are there more codes from national accounts?]
+
+Code	Name
+FORM	Formal sector
+INF	Informal sector
+HH	Households
+HH_OUP	Households producing goods for own final use
+HH_PDW	Households employing paid domestic workers
