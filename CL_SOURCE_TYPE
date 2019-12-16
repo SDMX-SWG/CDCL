@@ -1,0 +1,35 @@
+
+Are there more codes required from other domains?
+
+Name: Data Source
+Description: Characteristics and components of the raw statistical data used for compiling statistical aggregates.
+
+From Global Labour DSD:
+
+Code	Name
+PC	Population census
+HS	Household survey
+HS_LFS	Labour force survey
+HS_HIES	Household income/expenditure survey
+HS_CLS	Child labour survey
+HS_LSMS	Living standards measurement survey
+HS_O	Other household survey
+ESC	Establishment survey or census
+ESC_EC	Economic or establishment census
+ESC_ES	Establishment survey
+MT_ES_ADM	Establishment survey and administrative records (multi-source)
+OE	Official estimate
+ME	Model estimate
+ADM	Administrative record
+ADM_IR	Insurance records
+ADM_EOR	Employment office records
+ADM_CA	Collective agreements
+ADM_LIR	Labour inspectorate records
+ADM_REO	Records of employers' organizations
+ADM_RWO	Records of workers' organizations
+ADM_PR	Population register
+ADM_ER	Establishment or business register
+ADM_TR	Tax records
+ADM_O	Other administrative records and related sources
+CPS	Consumer price survey
+NA	National Accounts
