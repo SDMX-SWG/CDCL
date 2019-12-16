@@ -1,0 +1,24 @@
+From Global Labour DSD
+
+Name: Labour force status
+Description: Classification of the working-age population based on the person's relation to the labour market, including labour market attachment
+
+
+WAP	Working age population
+ELF	Extended labour force
+PLF	Potential labour force
+LF	Labour force
+EMP	Employment
+EMP_TRU	Time-related underemployment
+UNE	Unemployment
+NE	Not in employment
+OLF	Outside the labour force
+LW	Would like to work
+PLF_SNA	Seeking, not available (unavailable jobseekers)
+PLF_NSA	Not seeking, available (available potential jobseekers)
+PLF_NSA_D	Not seeking, available, because of discouragement
+NSNAW	Not seeking, not available, willing (willing non-jobseekers)
+NSNW	Not seeking, not willing (unwilling non-jobseekers)
+NSW	Not seeking, willing
+S_JF	Seeking or job already found
+EMP_PTU	Underemployed part-time workers
