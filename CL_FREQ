@@ -1,3 +1,16 @@
+
+Note from joint meeting:
+  . not change the Schemas
+  . use ISO duration notation (2010-M01/P2M or 2010-01/P2M for calendar year)
+  or
+  . normal period notation (2010-M01, 2010-M03 but not 2010-M02 for every two months)
+  . first obs in the time series would specify the starting point for validation
+  . try to align the freq codes with the iso codes if possible
+
+Question from SWG physical meeting:
+  Should code V be "Never updated" or "One-off"?
+
+
 Code	Locale	Description	Definition
 P	en	Pluriannual, multiannual	To be used for data collected or disseminated with a frequency covering more than one year
 A	en	Annual	To be used for data collected or disseminated every year
