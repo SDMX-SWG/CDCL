@@ -13,6 +13,11 @@ Danny DELCAMBRE (Eurostat)
 
 National Accounts CL_VALUATION as per SDMX-NA_DSD-Matrix_V2019-05_final
 
+_X	Not allocated/unspecified (including all kinds of valuation methods)
+_Z	Not applicable
+A	Accrual
+B	Basic prices
+C	Cash
 E	Accumulation of FDI equity capital flow
 F	Face value
 H	Historic acquisition cost
