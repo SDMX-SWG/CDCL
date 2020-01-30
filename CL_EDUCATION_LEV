@@ -4,3 +4,9 @@ Name: Education level
 Description: An ordered set which groups and classifies education programmes according to the knowledge, skills, competencies and qualifications which they are designed to impart. 
 
 [ISCED classification]
+
+------------------------
+
+Danny DELCAMBRE (Eurostat)
+
+There should be a clear description of the content of this code list as it is a mix of various versions of the classification at various levels of disaggregation. Users who would want to re-use such a CL should be informed about these specificities. A link should also be made to URLs where interested users could find the official versions of the various versions of the classification. 
