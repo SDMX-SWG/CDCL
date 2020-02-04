@@ -12,3 +12,18 @@ CLECO	Industry classification revised
 CLOCU	Occupation classification revised
 CLEDU	Educational classification revised
 CUR	New or revalued currency
+
+------------------------------------
+
+Danny DELCAMBRE (Eurostat)
+
+Description: Shouldn't we rather use the definition or context from the Glossary ? 
+    - Definition: Attribute that describes the reason for a break in a time series.
+    - Context: Time series breaks can be explained by changes to classifications, methodology, survey scope, data sources, etc.
+
+Add
+  - Classification revised
+
+SDMX Glossary
+  - the Concept_ID is BREAK_REASON
+  - the code list ID should be added
