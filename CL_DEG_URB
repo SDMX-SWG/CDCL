@@ -31,6 +31,8 @@ CIT     Cities                 Densely populated areas
 SUBURB  Towns and suburb       Intermediate density areas
 RUR     Rural areas            Thinly populated areas
 
+This proposal is also in line with "A recommendation on the method to delineate cities, urban and rural areas for international statistical comparisons" prepared by the EU, ILO, FAO, OECD, UN-Habitat and World Bank) and submitted to the UN Statistical Commission in March 2020: https://ec.europa.eu/eurostat/cros/system/files/bg-item3j-recommendation-e.pdf
+
 P.S.: We will also need an entry in the SDMX Glossary.
 
 --------------------------
