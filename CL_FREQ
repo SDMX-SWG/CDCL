@@ -1,93 +1,40 @@
 Added the ISO Duration at the first column 
 
-ISO Duration 	Code	Locale	Description	              Definition
-P	            P	    en	    Pluriannual, multiannual	To be used for data collected or disseminated with a frequency covering more than one year
-P1Y         	A	    en	    Annual	                  To be used for data collected or disseminated every year
-P2Y	          A2	  en	    Biennial	                To be used for data collected or disseminated every two years
-P3Y	          A3	  en	    Triennial	                To be used for data collected or disseminated every three years
-P4Y	          A4	  en	    Quadrennial	              To be used for data collected or disseminated every four years
-P5Y	          A5	  en	    Quinquennial	            To be used for data collected or disseminated every five years
-P10Y	        A10	  en	    Decennial	                To be used for data collected or disseminated every ten years
-P20Y	        A20	  en	    Bidecennial	              To be used for data collected or disseminated every twenty years
-P30Y	        A30	  en	    Tridecennial	            To be used for data collected or disseminated every thirty years
-P4M	          A_3	  en	    Three times a year	      To be used for data collected or disseminated three times a year
-P0.5Y	        S	    en	    Half-yearly, semesterly	  To be used for data collected or disseminated every semester
-P3M	          Q	    en	    Quarterly	                To be used for data collected or disseminated every quarter
-P1M	          M	    en	    Monthly	                  To be used for data collected or disseminated every month
-P2M	          M2	  en	    Bimonthly	                To be used for data collected or disseminated every two months
-P0.5M	        M_2	  en	    Semimonthly	              To be used for data collected or disseminated twice a month
-P10D	        M_3	  en	    Three times a month	      To be used for data collected or disseminated three times a month
-P1W	          W	    en	    Weekly	                  To be used for data collected or disseminated every week
-P2W	          W2	  en	    Biweekly	                To be used for data collected or disseminated every two weeks
-P0.5W	        W_2	  en	    Semiweekly	              To be used for data collected or disseminated twice a week
-            	W_3	  en	    Three times a week	      To be used for data collected or disseminated three times a week
-	            B	    en	    Daily - business week	Similar to "daily", however there are no observations for Saturday and Sunday (so, neither "missing values" nor "numeric values" should be provided for Saturday and Sunday). This treatment ("business") is one way to deal with such cases, but it is not the only option. Such a time series could alternatively be considered daily ("D"), thus, with missing values in the weekend
-P1D	          D	    en	    Daily	                    To be used for data collected or disseminated daily
-P0.5D	        D_2	  en 	    Twice a day	              To be used for data collected or disseminated twice a day
-PT1H	        H	    en	    Hourly	                  To be used for data collected or disseminated hourly
-PT2H	        H2	  en	    Bihourly	                To be used for data collected or disseminated every two hours
-PT3H        	H3	  en	    Trihourly	                To be used for data collected or disseminated every three hours
-	            I	    en	    Irregular / A-periodic  	To be used for data collected or disseminated at uneven intervals
-PT1M	        N	    en	    Minutely	While N denotes "minutely", usually, there may be no observations every minute (for several series the frequency is usually "irregular" within a day/days). And though observations may be sparse (not collected every minute), missing values do not need to be given for the minutes when no observations exist: in any case the time stamp determines when an observation is observed
-	            C	    en	    Continuous	              The item is updated more frequent than daily
-              _O	  en	    Other	                    The event occurs with another type of regularity (for instance, every leap year).
-              _U	  en	    Unkown	                  The event occurs with unknown regularity.
-              V	    en	    Never                   	The item is never updated.
-              CU	  en	    Continuously updated    	The event repeats without interruption.
-              OA	  en	    Occasional annual	        The event occurs Occasionally in a year
-              OQ	  en	    Occasional quarterly	    The event occurs Occasionally in a quarter
-              OM	  en	    Occasional monthly      	The event occurs Occasionally in a month
-              OD	  en	    Occasional daily        	The event occurs Occasionally in a day
-
-
-
-
-Note from joint meeting:
-  . not change the Schemas
-  . use ISO duration notation (2010-M01/P2M or 2010-01/P2M for calendar year)
-  or
-  . normal period notation (2010-M01, 2010-M03 but not 2010-M02 for every two months)
-  . first obs in the time series would specify the starting point for validation
-  . try to align the freq codes with the iso codes if possible
-
-Question from SWG physical meeting:
-  Should code V be "Never updated" or "One-off"?
-
-
-Code	Locale	Description	Definition
-P	en	Pluriannual, multiannual	To be used for data collected or disseminated with a frequency covering more than one year
-A	en	Annual	To be used for data collected or disseminated every year
-A2	en	Biennial	To be used for data collected or disseminated every two years
-A3	en	Triennial	To be used for data collected or disseminated every three years
-A4	en	Quadrennial	To be used for data collected or disseminated every four years
-A5	en	Quinquennial	To be used for data collected or disseminated every five years
-A10	en	Decennial	To be used for data collected or disseminated every ten years
-A20	en	Bidecennial	To be used for data collected or disseminated every twenty years
-A30	en	Tridecennial	To be used for data collected or disseminated every thirty years
-A_3	en	Three times a year	To be used for data collected or disseminated three times a year
-S	en	Half-yearly, semesterly	To be used for data collected or disseminated every semester
-Q	en	Quarterly	To be used for data collected or disseminated every quarter
-M	en	Monthly	To be used for data collected or disseminated every month
-M2	en	Bimonthly	To be used for data collected or disseminated every two months
-M_2	en	Semimonthly	To be used for data collected or disseminated twice a month
-M_3	en	Three times a month	To be used for data collected or disseminated three times a month
-W	en	Weekly	To be used for data collected or disseminated every week
-W2	en	Biweekly	To be used for data collected or disseminated every two weeks
-W_2	en	Semiweekly	To be used for data collected or disseminated twice a week
-W_3	en	Three times a week	To be used for data collected or disseminated three times a week
-B	en	Daily - business week	Similar to "daily", however there are no observations for Saturday and Sunday (so, neither "missing values" nor "numeric values" should be provided for Saturday and Sunday). This treatment ("business") is one way to deal with such cases, but it is not the only option. Such a time series could alternatively be considered daily ("D"), thus, with missing values in the weekend
-D	en	Daily	To be used for data collected or disseminated daily
-D_2	en 	Twice a day	To be used for data collected or disseminated twice a day
-H	en	Hourly	To be used for data collected or disseminated hourly
-H2	en	Bihourly	To be used for data collected or disseminated every two hours
-H3	en	Trihourly	To be used for data collected or disseminated every three hours
-I	en	Irregular / A-periodic	To be used for data collected or disseminated at uneven intervals
-N	en	Minutely	While N denotes "minutely", usually, there may be no observations every minute (for several series the frequency is usually "irregular" within a day/days). And though observations may be sparse (not collected every minute), missing values do not need to be given for the minutes when no observations exist: in any case the time stamp determines when an observation is observed
-C	en	Continuous	The event repeats without interruption.
-_O	en	Other	The event occurs with another type of regularity (for instance, every leap year).
-_U	en	Unkown	The event occurs with unknown regularity.
-V	en	Never	The item is never updated.
-OA	en	Occasional annual	Annual data that may not appear every year.
-OQ	en	Occasional quarterly	Quarterly data that may not appear every quarter.
-OM	en	Occasional monthly	Monthly data that may not appear every month.
-OD	en	Occasional daily	Daily data that may not appear every day.
+Code	Locale	Description	Definition	ISO8601
+P	en	Pluriannual, multiannual	To be used for data collected or disseminated with a frequency covering more than one year	P
+A	en	Annual	To be used for data collected or disseminated every year	P1Y
+A2	en	Biennial	To be used for data collected or disseminated every two years	P2Y
+A3	en	Triennial	To be used for data collected or disseminated every three years	P3Y
+A4	en	Quadrennial	To be used for data collected or disseminated every four years	P4Y
+A5	en	Quinquennial	To be used for data collected or disseminated every five years	P5Y
+A10	en	Decennial	To be used for data collected or disseminated every ten years	P10Y
+A20	en	Bidecennial	To be used for data collected or disseminated every twenty years	P20Y
+A30	en	Tridecennial	To be used for data collected or disseminated every thirty years	P30Y
+A_3	en	Three times a year	To be used for data collected or disseminated three times a year	
+S	en	Half-yearly, semesterly	To be used for data collected or disseminated every semester	P0.5Y
+Q	en	Quarterly	To be used for data collected or disseminated every quarter	
+M	en	Monthly	To be used for data collected or disseminated every month	P1M
+M2	en	Bimonthly	To be used for data collected or disseminated every two months	P2M
+M_2	en	Semimonthly	To be used for data collected or disseminated twice a month	P0.5M
+M_3	en	Three times a month	To be used for data collected or disseminated three times a month	
+W	en	Weekly	To be used for data collected or disseminated every week	P1W
+W2	en	Biweekly	To be used for data collected or disseminated every two weeks	P2W
+W_2	en	Semiweekly	To be used for data collected or disseminated twice a week	P0.5W
+W_3	en	Three times a week	To be used for data collected or disseminated three times a week	
+B	en	Daily - business week	Similar to "daily", however there are no observations for Saturday and Sunday (so, neither "missing values" nor "numeric values" should be provided for Saturday and Sunday). This treatment ("business") is one way to deal with such cases, but it is not the only option. Such a time series could alternatively be considered daily ("D"), thus, with missing values in the weekend	
+D	en	Daily	To be used for data collected or disseminated daily	P1D
+D_2	en 	Twice a day	To be used for data collected or disseminated twice a day	P0.5D
+H	en	Hourly	To be used for data collected or disseminated hourly	PT1H
+H2	en	Bihourly	To be used for data collected or disseminated every two hours	PT2H
+H3	en	Trihourly	To be used for data collected or disseminated every three hours	PT3H
+I	en	Irregular / A-periodic	To be used for data collected or disseminated at uneven intervals	
+N	en	Minutely	While N denotes "minutely", usually, there may be no observations every minute (for several series the frequency is usually "irregular" within a day/days). And though observations may be sparse (not collected every minute), missing values do not need to be given for the minutes when no observations exist: in any case the time stamp determines when an observation is observed	PT1M
+C	en	Continuous	The item is updated more frequent than daily	
+_O	en	Other	The event occurs with another type of regularity (for instance, every leap year).	
+_U	en	Unkown	The event occurs with unknown regularity.	
+V	en	Never	The item is never updated.	
+CU	en	Continuously updated	The event repeats without interruption.	
+OA	en	Occasional annual	The event occurs Occasionally in a year	
+OQ	en	Occasional quarterly	The event occurs Occasionally in a quarter	
+OM	en	Occasional monthly	The event occurs Occasionally in a month	
+OD	en	Occasional daily	The event occurs Occasionally in a day	
