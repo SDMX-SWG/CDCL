@@ -4,6 +4,11 @@ Are there more codes required from other domains?
 Name: Data Source
 Description: Characteristics and components of the raw statistical data used for compiling statistical aggregates.
 
+! ! ! ! ! 
+Comment Eurostat 24 March 2020 : The exact name of the concept underlying this CL is "Source data type" (see SDMX Glossary 2.1). "Data source" should NOT be used as it is a totally different concept (also included in the Glossary)
+! ! ! ! !
+
+
 From Global Labour DSD:
 
 Code	Name
@@ -33,7 +38,3 @@ ADM_TR	Tax records
 ADM_O	Other administrative records and related sources
 CPS	Consumer price survey
 NA	National Accounts
-
-! ! ! 
-The exact name of the concept underlying this CL is "Source data type" (see SDMX Glossary 2.1). "Data source" should NOT be used as it is a totally different concept (also included in the Glossary)
-! ! ! 
