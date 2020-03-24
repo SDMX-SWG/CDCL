@@ -33,3 +33,7 @@ ADM_TR	Tax records
 ADM_O	Other administrative records and related sources
 CPS	Consumer price survey
 NA	National Accounts
+
+! ! ! 
+The exact name of the concept underlying this CL is "Source data type" (see SDMX Glossary 2.1). "Data source" should NOT be used as it is a totally different concept (also included in the Glossary)
+! ! ! 
